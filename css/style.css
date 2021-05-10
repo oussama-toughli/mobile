@@ -3,9 +3,10 @@ section.banner {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    z-index: -3; 
+    z-index: 10; 
     text-align: right; 
-    position: relative;  
+    position: relative; 
+    overflow: hidden; 
 
   }
   section.banner .overlay {
@@ -53,10 +54,16 @@ section.banner {
     line-height: 50px;
     margin: 40px 0;
     background-color: #fafafa; 
+   
   }
+  
+
+  
   section.banner .overlay .banner-text button img {
     width: 50px; 
+    
   }
+  
   section.banner .overlay .banner-text button i {
     font-size: 50px; 
   }
@@ -71,8 +78,8 @@ section.banner {
     font-size: 18px; 
   }
   section.banner .overlay .banner-text button:last-child {
-    margin-right: 20px; 
-  } 
+    margin-right: 20px;
+}
   @media (max-width: 767px) and (min-width: 576px) {
 
 section.banner .overlay .images {
@@ -90,7 +97,9 @@ section.banner .overlay .banner-text button {
     line-height: 40px;
     margin: 0px 0 50px;
     padding: .5rem 1rem;
+    
 }
+
 section.banner .overlay .banner-text button img {
     width: 40px; 
 }

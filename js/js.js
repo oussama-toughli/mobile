@@ -1,11 +1,13 @@
 
-$(document).ready(function(){
+$(document).ready(function() {
 var wow = new WOW({
-    mobile: false
+    mobile:false
 });
 wow.init();
-});
+
+
 
 $(function () {
     $("#emailForm").validate();
+ });
  });
